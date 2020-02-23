@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CounterView">
+
+        <!-- Min value-->
+        <attr name="counter_view_min" format="integer" />
+
+        <!-- Max value-->
+        <attr name="counter_view_max" format="integer" />
+
+        <!-- Set value-->
+        <attr name="counter_view_value" format="integer" />
+
+        <!-- Set up/down value-->
+        <attr name="counter_view_up_down_value" format="integer" />
+
+        <!-- Disable button in max/min value -->
+        <attr name="counter_view_up_disable_max_min_value" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
